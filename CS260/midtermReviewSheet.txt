@@ -1,0 +1,38 @@
+Midterm Review Sheet
+
+Types of networks- LAN, MAN, WAN
+Encapsulation, packets, services, interfaces, protocols
+The OSI model- all layers
+The TCP/IP stack- all layers
+Be able to compare and contrast TCP/IP and OSI
+
+ARPANET- what was it, how did it grow, how is it related to TCP/IP
+IANA and InterNIC
+RFC’s- what they are and who proposes and maintains them  (You won’t need to memorize any RFC’s)
+
+TCP- be familiar with the TCP header (you won’t need to memorize it but know the flags and what they mean)
+TCP Session- how a connection is made, data is transferred, and how a connection is ended
+TCP timers- what timers does TCP need and how they work
+Delayed duplicates- what are they, how are they solved, what problems do they cause?
+UDP- what is it and why is it used?
+Differences between connection oriented and connectionless protocols
+Congestion- how does TCP handle congestions?  
+Algorithms- Nagle, Clark, Jacobson, Karn.  Silly window syndrome
+What happens when a packet is dropped
+Ports- what application layer protocols run on what ports (see slides)
+
+IP- what is it and how did it came to be
+IPv6- know what it is and why it was created
+Routing- how packets are sent on networks
+Interior/Exterior gateway protocols- know generally what these are and some of the concerns that each one must deal with and how they address those concerns
+Network devices- hubs, switches, routers, and bridges
+IP classes and subnetting- be able to calculate subnets. 
+Reserved IP address ranges- know them (on the slides)
+NAT- what it is, how it works, and problems that it creates and solves
+NAT punch through- be able to describe how this works and what is required to make it possible
+
+Winsock-  how to create a connection in winsock (you don’t need to know the exact code, just the steps and what order they are done in)
+How to listen for incoming connections
+Good error handling and cleaning up resources
+Blocking and non-blocking sockets
+Threading- creating threads, locking (critical_section, mutex, semaphore), events

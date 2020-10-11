@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework::ComponentCreator" Collapsed="true">
+    <Position X="8.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAEAAAAAA=</HashCode>
+      <FileName>ComponentCreator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::GameObjectFactory" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAQAAABIQACAAAAAAAYBgQUAAAgAEAAAABAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Drawer" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAEEAAAAAAAAAAAAAACAAAAAAIABAAQAgBgABIAAA=</HashCode>
+      <FileName>DebugDraw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Graphics" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQEAAAKCEAAAQBABDCAAIGACCpAACAAgAQACABABgU=</HashCode>
+      <FileName>Graphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Transform" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAgAAAAAAQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Message" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAIAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ISystem" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAACAAAAIAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>System.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::GameObjectComposition" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIAYAAACAABAAAAABAIAAAAAAAAAIAIIA=</HashCode>
+      <FileName>Composition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::GameComponent" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIAAAQAAACAAAAAAACAAAAAgAAAAAAAAQAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ComponentCreatorType&lt;type&gt;" Collapsed="true">
+    <Position X="8.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentCreator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::CoreEngine" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAQAAAQAAAAAAAQIAQAAAAgAAAABABAA=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::MessageQuit" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ToggleDebugDisplay" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ObjectLinkList&lt;type&gt;" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAgQAAAAEIAAAQAAAAAAAAAAACABgAAgA=</HashCode>
+      <FileName>ObjectLinkedList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::FilePath" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAAAAAAAQAAAAAAAAAAAAAAAUAAAABgAABAAAA=</HashCode>
+      <FileName>FilePath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ISerializer" Collapsed="true">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAQAAAAAAAAAQAAAQAAgAAAAAA=</HashCode>
+      <FileName>Serialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::TextSerializer" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAQAAAAAAAAAQAACQAAgAAAAAA=</HashCode>
+      <FileName>TextSerialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Controller" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAQAgAQAAAAAAAAABACAEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameLogic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Bomb" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAACABAAAAACAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>GameLogic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::GameLogic" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAARAAQAAAKAACAAAQAAAgAAAAAEAAAAABAA=</HashCode>
+      <FileName>GameLogic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Camera" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAAQAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Sprite" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAACgwAAAAAAAAAAACAEAFAQAAAAgAAAAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Body" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAQEAAAEAyAgAAABAQAIADAAEkEQAAAEAAGGAAE=</HashCode>
+      <FileName>Body.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ContactSet" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAABQAAAAAAAAAEgAAgAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Resolution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Physics" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAQAEAIAAAAIAQAAgCIAAgAAAAAEAIAQKAAAAQASBIA=</HashCode>
+      <FileName>Physics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::MessageCollide" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::Shape" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAgAAAAAAAAAAAQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ShapeCircle" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAgAAAAAAAAAAAEAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::ShapeAAB" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAIAAAAAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::CollsionDatabase" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAEAAAAAAAEAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::WindowsSystem" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAIAAAKAAAAAAAAAAAAAIAAAACBAA=</HashCode>
+      <FileName>WindowsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::MessageCharacterKey" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>WindowsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::MouseButton" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAIQAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>WindowsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::MouseMove" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAA=</HashCode>
+      <FileName>WindowsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework::FileDrop" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAA=</HashCode>
+      <FileName>WindowsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Framework::ComponentSorter" Collapsed="true">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composition.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Framework::Vertex2D" Collapsed="true">
+    <Position X="20.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>VertexTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Framework::BodyContact" Collapsed="true">
+    <Position X="17" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMABAAAAAAABAAIAwAAAAAAAAAAAAAAAAACABA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Framework::GOC" Collapsed="true">
+    <Position X="12.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Framework::GOCId" Collapsed="true">
+    <Position X="20.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composition.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Framework::ComponentArray" Collapsed="true">
+    <Position X="18.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composition.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2" Collapsed="true">
+    <Position X="20.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec3" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec4" Collapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Mat4" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Framework::uint" Collapsed="true">
+    <Position X="18.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VMath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Framework::CollisionTest" Collapsed="true">
+    <Position X="17" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Framework::PixelShaders" Collapsed="true">
+    <Position X="18.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAiAAAA=</HashCode>
+      <FileName>Graphics.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Framework::Mid::MessageIdType" Collapsed="true">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAASAAAAAAAAAAAAAQAAAAAAAAAAAAAAAOAAQA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
